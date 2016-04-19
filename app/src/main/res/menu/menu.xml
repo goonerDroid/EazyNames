@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort_first_name_a_z"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="Sort First Name A-Z"/>
+    <item
+        android:id="@+id/sort_first_name_z_a"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="Sort First Name Z-A"/>
+    <item
+        android:id="@+id/sort_last_name_a_z"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="Sort Last Name A-Z"/>
+    <item
+        android:id="@+id/sort_last_name_z_a"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="Sort Last Name Z-A"/>
+</menu>

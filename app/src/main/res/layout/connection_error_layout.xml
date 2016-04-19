@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_no_connection_placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Check with your connection and try again!"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_refresh_connection"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_no_connection_placeholder"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="REFRESH"/>
+
+</RelativeLayout>
